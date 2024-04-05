@@ -1,0 +1,37 @@
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+  } 
+.profile-img img{
+  height: 170px;
+  width: 170px;
+  border-radius: 100%;
+}
+.social {
+  display: flex;
+  padding: 10px;
+  gap: 2px;
+  justify-content: space-between;
+}
+
+.project-text {
+  font-weight: bold;
+}
+.title {
+  font-weight: bold;
+}
+.description {
+  font-style: italic;
+}
+
+ 
